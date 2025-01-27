@@ -9,7 +9,7 @@ const ProfilePage = () => {
     email: '',
     avatar: '/images.jpeg', // Assuming the avatar.png is in the public folder
   });
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
 
   useEffect(() => {
     // Mock API Call to simulate fetching user data
